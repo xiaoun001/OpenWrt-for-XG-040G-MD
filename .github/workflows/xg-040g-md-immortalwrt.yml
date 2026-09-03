@@ -16,7 +16,7 @@ on:
 env:
   CONFIG_FILE: "config/xg-040g-md-immortalwrt.config"
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-  REPO_BRANCH: master
+  REPO_BRANCH: v25.10.1
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   KEEP_RELEASES: 20
@@ -208,7 +208,7 @@ jobs:
           设备型号: XG-040G-MD
           构建目标: nokia_xg-040g-md
           构建时间: $(date +"%Y-%m-%d %H:%M")
-          内核版本: 6.18.X
+          内核版本: 6.12.X
           源码仓库: $REPO_URL
           分支: $REPO_BRANCH
           EOF

@@ -16,7 +16,7 @@ on:
 env:
   CONFIG_FILE: "config/xg-040g-md-immortalwrt.config"
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
-  REPO_BRANCH: v25.10.1
+  REPO_BRANCH: openwrt-25.12
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
   KEEP_RELEASES: 20
